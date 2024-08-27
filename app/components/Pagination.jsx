@@ -68,7 +68,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
           Next
         </button>
       </div>
-      <span className="mx-2 text-lightBlack place-self-end">{`Page ${currentPage} of ${totalPages}`}</span>
+      <span className="md:mx-6 sm:mx-12 lg:mx-10 text-lightBlack place-self-end">{`Page ${currentPage} of ${totalPages}`}</span>
     </div>
   );
 };
