@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Pagination from "./components/Pagination";
 import categories from "./data/categories";
 
-const ITEMS_PER_PAGE = 5;
+const ITEMS_PER_PAGE = 8;
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState(1);
