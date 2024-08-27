@@ -20,6 +20,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
   const handlePageChange = (page) => {
     if (page >= 1 && page <= totalPages) {
       onPageChange(page);
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };
 
